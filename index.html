@@ -11,10 +11,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/6.4.0/css/bootstrap.min.css"/>
     <link rel="icon" href="mahm.jpg"/>
   <style>
-  
+  :root{
+  --body-color: 
+  #F1E1B9;
+  --dark-color: #ebd59c;
+  --text-color: #050403;
+
+}
 body{
    border-color:transparent transparent  silver transparent;
-  background-color: #ebd59c;
+  background-color: var(--body-color);
 }
 
 h1,h2,h3{
@@ -190,8 +196,8 @@ font-weight: bold;
  }
  .footer{
    border-radius: 10px;
-   background-color:#030e3e;
-   color:rgb(240, 168, 33) ;
+   background-color:	 var(--dark-color);
+   color:var(--text-color) ;
     margin: 0;
     padding: 0;
     height: 50%;
@@ -202,15 +208,15 @@ font-weight: bold;
  .footer1{
    border-radius: 10px;
    text-align: center;
-   background-color:#030e3e;
-   border: 30px solid #030e3e;
+   background-color: var(--dark-color);
+   border: 30px solid 	var(--dark-color);
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
   
  }
  span{
-   color: rgb(244,210 , 148) ;
+   color: var(--text-color);
    text-align: center;
        align-items: center;
        justify-content: center;
@@ -222,7 +228,7 @@ font-weight: bold;
 
  }
  .ico{
-   border:30px solid #030e3e;
+   border:30px solid 	 var(--dark-color);
    border-radius: 10px;
  }
  .ico a{
@@ -237,15 +243,6 @@ letter-spacing: 8px;
  .icon a:hover{
    font-size: 22px;
  }
-      .mah{
-  font-size: 24px;
-  text-align: center;
-  font-family: ui-sans-serif;
-  font-style: oblique;
-  background-color:#030e3e;
-  color:#000 ;
-    margin:0px 0px;
-}
  </style>
 </head>
 <body>
@@ -342,16 +339,19 @@ letter-spacing: 8px;
     </div>
 </h4></div>
 <!---->
-<div class="mah">
-    
-     <br>
-        <a href="https://www.facebook.com/mahmoud.alimahmoud.7106?mibextid=2JQ9oc"> <i  style="color: blue;"   class="fab fa-facebook"></i> </a>
-        <a href="https://www.instagram.com/mahmoud.alimahmoud.7106/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i  style="color: rgb(219, 12, 98);"  class="fab fa-instagram"></i> </a>
-        <a href="https://t.me/Mahmoud_A_AbdELrahim"> <i  style="color: rgb(59, 59, 230);"  class="fab fa-telegram"></i> </a>
-        <a href="https://api.whatsapp.com/send?phone=201558236546"> <i  style="color: rgb(0, 107, 0);font-size:26px; "  class="fab fa-whatsapp"></i> </a>
+<div class="footer" id="contant">
+   <div class="footer1">
+  <span>
+   Developed By Mahmoud ALI </span> 
+       </div>   
+         <div class="ico">
+       <a href="https://www.facebook.com/mahmoud.alimahmoud.7106?mibextid=2JQ9oc"> <i  style="color: blue;"   class="fab fa-facebook"></i> </a>
+       <a href="https://www.instagram.com/mahmoud.alimahmoud.7106/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i  style="color: rgb(219, 12, 98);"  class="fab fa-instagram"></i> </a>
+       <a href="https://t.me/Mahmoud_A_AbdELrahim"> <i  style="color: rgb(59, 59, 230);"  class="fab fa-telegram"></i> </a>
+       <a href="https://api.whatsapp.com/send?phone=201001514586"> <i  style="color: rgb(0, 255, 0);"  class="fab fa-whatsapp"></i> </a>
    
-         <span >All Right Reserved &copy; 2024...</span>
-    </div>
+      </div>     <span>
+        All Right Reserved    &copy; 2024  </span> </div>
    <script>
 let logo =document.getElementById('logo');
 let ee = document.getElementById('ee');
