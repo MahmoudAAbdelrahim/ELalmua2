@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العالمية للانترنت</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=work+sans:wght200;300;400;500;600;700;800&display=swap"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/6.4.0/css/bootstrap.min.css"/>
+    <link rel="icon" href="mahm.jpg"/>
+  <style>
+  
+body{
+   border-color:transparent transparent  silver transparent;
+  background-color: #ebd59c;
+}
+
+h1,h2,h3{
+       text-align: center;
+     align-items: center;
+      font-style: oblique;
+      font-size: 50px;
+      width: 100%;
+    margin-top: 100px;
+} 
+h4{
+  text-align: center;
+     align-items: center;
+      font-style: oblique;
+      width: 100%;
+    margin-top: 100px;
+}
+ ul{
+list-style: none; 
+ display: flex;
+  justify-content: space-between;
+  width: 100%;
+ }
+ #menu0{
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   transition:.1s;
+font-size: 16px;
+font-weight: bold;
+color: #000;
+ }
+ ul li a{
+   display:inline;
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   gap: 10px;
+   transition:.1s;
+   position: relative;
+    display: flex;
+    color: #788180;  
+ }
+ #menu0 ul li a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity:0 ;
+    transition: .1s;
+}#menu0 ul li a:hover::after{
+  transform: translateY(0);
+    opacity: 1;
+}
+ 
+ .img-box{
+    width:65px;
+    height:65px;
+    border-radius:65%;
+    overflow:hidden;
+    border:3px solid silver;
+    flex-shrink:0;
+    list-style: none;
+  }
+  .img-box img{
+    width:100%;
+  }
+  .logo{
+   color: #000;
+   font-size: 20px;
+  
+  }
+ #menu{
+  display: flex;
+justify-content: space-between;
+  width: 70%;
+ }
+ @media (min-width:468px) {
+  #menu{
+ display: flex;
+justify-content: space-between;
+  width: 70%;
+ }
+ #menu0{
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   transition:.1s;
+font-size: 22px;
+font-weight: bold;
+   color:rgb(2, 109, 117) ;
+   
+ }}
+ @media (min-width:668px) {
+  #menu{
+ display: flex;
+justify-content: space-between;
+  width: 80%;
+ }
+ #menu0{
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   transition:.1s;
+font-size: 22px;
+font-weight: bold;
+   color:rgb(2, 109, 117) ;
+   
+ }}
+ @media (min-width:768px) {
+  #menu{
+ display: flex;
+justify-content: space-between;
+  width: 80%;
+ }
+ #menu0{
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   transition:.1s;
+font-size: 22px;
+font-weight: bold;
+   color:rgb(2, 109, 117) ;
+   
+ }}
+ @media (min-width:992px) {
+  #menu{
+ display: flex;
+justify-content: space-between;
+  width: 80%;
+ }
+ #menu0{
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   transition:.1s;
+font-size: 22px;
+font-weight: bold;
+   color:rgb(2, 109, 117) ;
+   
+ }}
+ @media (min-width:1200px){
+  #menu{
+ display: flex;
+justify-content: space-between;
+  width: 80%;
+ }
+ #menu0{
+   text-decoration:none;
+   text-align: center;
+   align-items:center;
+   justify-content: center;
+   transition:.1s;
+font-size: 22px;
+font-weight: bold;
+   color:rgb(2, 109, 117) ;
+   
+ }}
+ .hidde{
+   display:none;
+   color: #000;
+ }
+ .footer{
+   border-radius: 10px;
+   background-color:#030e3e;
+   color:rgb(240, 168, 33) ;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+   text-align: center;
+   margin-top: 200px;
+   
+ }
+ .footer1{
+   border-radius: 10px;
+   text-align: center;
+   background-color:#030e3e;
+   border: 30px solid #030e3e;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+  
+ }
+ span{
+   color: rgb(244,210 , 148) ;
+   text-align: center;
+       align-items: center;
+       justify-content: center;
+       font-size: 24px;
+        font-weight: bold;
+ }
+ .pr{
+   list-style: none;
+
+ }
+ .ico{
+   border:30px solid #030e3e;
+   border-radius: 10px;
+ }
+ .ico a{
+   
+   display: inline-block;
+   justify-content: space-between;
+align-items: center;
+text-align: center;
+font-size: 28px;
+letter-spacing: 8px;
+ }
+ .icon a:hover{
+   font-size: 22px;
+ }
+ </style>
+</head>
+<body>
+   
+   
+    <div class="hiidde" id="ee"> 
+      <div id="menu">
+        <li class="pr" id="pr">
+                  <div class="img-box">
+                    <img src="mahm.jpg" alt="sore">
+                  
+                  
+                  <h2>mahmoud ali</h2>
+                  </li>
+    
+        
+            <div class="logo" id="logo">
+               <a href="#" style="color: #788180; font-size: 20px;">
+      <i class="fa fa-caret-down" aria-hidden="true"></i></a>  </div> 
+
+              
+     <div class="hidde" id="menu0">
+        <ul>
+        
+        <li id="placeholder">
+        <a class="active" href="#">
+        <i class="fas fa-homee"></i>
+        <p> الرئيسية</p>
+        
+        </a>
+       
+        </li>
+        
+           <li id="clients" >
+            
+        <a href="#">
+        <i class="fas fa-user-groupp"></i>
+        <p> العملاء</p>
+        
+        </a>
+       
+        </li>
+        
+        
+         
+        
+           <li id="product">
+        <a href="#">
+        <i class="fas fa-penn"></i>
+        <p> تعليمات</p>
+        </a>
+        </li>
+         
+        
+      
+       
+           <li id="settings">
+        <a href="#">
+        <i class="fas fa-cogg" ></i>
+        <p> اعددات الروتر</p>
+        
+        </a>
+           </li>
+       
+        </ul>
+    </div>
+   </div>
+   
+    <h1 id="pr0">العالمية للانترنت</h1>
+    <div  id="pr1" class="hidde" style="text-align: center;">
+    <h4 style="color: rgb(8, 8, 34);" >  
+    اسم المستخدم وكلمة السر عبارة عن رقم الهاتف المسجل في الروتر 
+      </h4>
+      <p style="font-size: 20px;">    الرجاء عدم تغيير اي اعددات بالداخل حتي لا يتم حظر الجهاز</p>
+
+  <p style="font-size: 20px;">هنا تستطيع معرفة استهلاكك للباقة</p>
+
+    <a href="http://2.2.2.2:88/user"> <i  style="font-size: 30px; color: #c6e3f1; background-color: #788180; border: 15px solid #788180; border-radius: 5px;"   class="fas fa-cog">الاعددات </i> </a>
+</div>
+    <h3 style="color: rgb(2, 29, 20);" class="hidde" id="pr2">العالمية للانترنت</h3>
+    <h4 id="pr3" class="hidde">
+    <div >
+      <p>admin:
+      اسم المستخدم الافتراضي  لاي روتر 
+
+      </p>
+      <p>admin:
+         كلمة السر الافتراضية لاي روتر   
+         </p>
+
+      <p> الرجاء عند تغيير كلمة السر تذكرها جيدا حتي لا يتم تعطيل الروتر</p>
+      
+      <a href="http://192.168.1.1/"> <i  style="font-size: 30px; color: #c6e3f1; background-color: #788180; border: 15px solid #788180; border-radius: 5px;"   class="fas fa-cog">الاعددات </i> </a>
+    </div>
+</h4></div>
+<!---->
+<div class="footer" id="contant">
+   <div class="footer1">
+   
+   Developed By<span> Mahmoud ALI </span> All Right Reserved    &copy; 2024
+       </div>   
+         <div class="ico">
+       <a href="https://www.facebook.com/mahmoud.alimahmoud.7106?mibextid=2JQ9oc"> <i  style="color: blue;"   class="fab fa-facebook"></i> </a>
+       <a href="https://www.instagram.com/mahmoud.alimahmoud.7106/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i  style="color: rgb(219, 12, 98);"  class="fab fa-instagram"></i> </a>
+       <a href="https://t.me/Mahmoud_A_AbdELrahim"> <i  style="color: rgb(59, 59, 230);"  class="fab fa-telegram"></i> </a>
+       <a href="https://api.whatsapp.com/send?phone=201202733405"> <i  style="color: rgb(0, 255, 0);"  class="fab fa-whatsapp"></i> </a>
+</div>  </div>
+   <script>
+let logo =document.getElementById('logo');
+let ee = document.getElementById('ee');
+let menu0 = document.getElementById('menu0');
+ 
+let placeholder = document.getElementById('placeholder');
+let clients = document.getElementById('clients');
+let product = document.getElementById('product');
+let settings = document.getElementById('settings');
+
+let pr = document.getElementById('pr');
+let pr0 = document.getElementById('pr0');
+let pr1 = document.getElementById('pr1');
+let pr2 = document.getElementById('pr2');
+let pr3 = document.getElementById('pr3');
+
+logo.addEventListener('click', function() {
+    menu0.classList.remove("hidde");});logo.addEventListener('click', function() {
+    logo.classList.add("hidde");});
+
+    placeholder.addEventListener('click', function() {
+    pr0.classList.remove("hidde");});placeholder.addEventListener('click', function() {
+    pr1.classList.add("hidde");});placeholder.addEventListener('click', function() {
+    pr2.classList.add("hidde");});placeholder.addEventListener('click', function() {
+    pr3.classList.add("hidde");});  
+
+    clients.addEventListener('click', function() {
+    pr1.classList.remove("hidde");});clients.addEventListener('click', function() {
+    pr0.classList.add("hidde");});clients.addEventListener('click', function() {
+    pr2.classList.add("hidde");});clients.addEventListener('click', function() {
+    pr3.classList.add("hidde");});
+
+    product.addEventListener('click', function() {
+    pr2.classList.remove("hidde");});product.addEventListener('click', function() {
+    pr0.classList.add("hidde");});product.addEventListener('click', function() {
+    pr1.classList.add("hidde");});product.addEventListener('click', function() {
+    pr3.classList.add("hidde");});
+
+    settings.addEventListener('click', function() {
+    pr3.classList.remove("hidde");});settings.addEventListener('click', function() {
+    pr0.classList.add("hidde");});settings.addEventListener('click', function() {
+    pr1.classList.add("hidde");});settings.addEventListener('click', function() {
+    pr2.classList.add("hidde");});
+
+   </script> 
+</body>
+</html>
